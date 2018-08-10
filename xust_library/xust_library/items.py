@@ -11,10 +11,10 @@ import scrapy
 class XustLibraryItem(scrapy.Item):
     # define the fields for your item here like:
     book_name = scrapy.Field()
-    # book_date = scrapy.Field()
-    book_press = scrapy.Field()
-    # book_wenzhai = scrapy.Field()
-    book_douban = scrapy.Field()
     book_frequency = scrapy.Field()
+    book_pub = scrapy.Field()
+    now_num = scrapy.Field()
+    class_num= scrapy.Field()
+    num = scrapy.Field()
     # book_name = scrapy.Field()
     # book_name = scrapy.Field()
