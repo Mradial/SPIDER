@@ -1,3 +1,2 @@
 # SPIDER
-爬虫爱好者
 SCRAPY&PYSPIDER
